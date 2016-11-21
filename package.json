@@ -2,6 +2,7 @@
   "name": "waterline2ts",
   "version": "0.1.0",
   "description": "Transform waterline models to typescript interfaces",
+  "repository": "jacobhenke/waterline2ts",
   "main": "index.js",
   "bin": "./index.js",
   "scripts": {
