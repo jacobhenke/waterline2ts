@@ -1,6 +1,6 @@
 # waterline2ts
 
-Translates (Waterline ORM modules)[http://sailsjs.org/documentation/concepts/models-and-orm/models] from Sails.js into (TypeScript interfaces)[https://www.typescriptlang.org/docs/handbook/interfaces.html].
+Translates [Waterline ORM modules](http://sailsjs.org/documentation/concepts/models-and-orm/models) from Sails.js into [TypeScript interfaces](https://www.typescriptlang.org/docs/handbook/interfaces.html).
 
 ## Usage
 
