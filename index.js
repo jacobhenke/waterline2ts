@@ -64,7 +64,7 @@ for (let name in models) {
     }
     if (colOpts.type) {
       let type = translateType(colOpts.type);
-      
+
       interfaceString += `: ${type};`;
       if (colOpts.type == 'date' || colOpts.type == 'time' || colOpts.type == 'datetime') {
         interfaceString += '  // ' + colOpts.type;
@@ -83,7 +83,7 @@ for (let name in models) {
         console.log('📛  ' + chalk.red("Model " + chalk.bold(model.toLowerCase()) + " was not found"));
         console.dir(nameMap[colOpts.model.toLowerCase()]);
       }
-      
+
       interfaceString += `: ${model};  // Association... See ${model}.ts`;
     }
 
@@ -127,7 +127,7 @@ function translateType(type) {
       return 'string';
     case 'json':
     case 'array':
-      return 'Array';
+      return 'Array<any>';
     default:
       return type;
   }
